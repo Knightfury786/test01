@@ -1,0 +1,165 @@
+Check system information
+Manage users (create, delete, modify)
+Manage groups (create, delete, modify)
+Change user passwords
+Create, rename, move, and delete files
+Create, rename, move, and delete directories
+Change file permissions
+Change file ownership
+View running processes
+Kill a process by PID or name
+Check disk usage and free space
+Monitor system performance (CPU, memory usage)
+Install and remove packages using a package manager
+Configure and check network settings
+View and analyze system logs
+
+DAY _2 Task 
+
+1)	Create user with name Techie and provide sudo access to user.
+2)	Navigate to the home directory.
+3)	Create a new directory.
+4)	List the contents of a directory.
+5)	Change the current directory.
+6)	Create a new empty file.
+7)	View the contents of a file.
+8)	Copy a file to another location.
+9)	Move a file to another location.
+10)	Rename a file.
+11)	Delete a file.
+12)	Grant or revoke permissions on a file or directory.
+13)	View the current date and time.
+14)	Check the system uptime.
+15)	View the running processes.
+16)	Kill a running process.
+17)	Install a package using the package manager (e.g., apt or yum).
+18)	Update the system packages.
+19)	Create a symbolic link.
+20)	Search for files using the find command.
+21)	Compress and decompress files using tar.
+22)	Monitor system resources with top or htop.
+23)	Create and manage user groups.
+24)	Set up SSH password less authentication.
+25)	Monitor log files using tail or grep.
+26)	Set up a web server (e.g., Apache or Nginx).
+27)	Configure and secure a MySQL Database.
+28)	Set up a Application Server (e.g.,Apache Tomcat)
+29)	create a service file for Apache Tomcat.(Should execute by using systemtctl command)
+30)	Print specific columns from a delimited file.
+31)	Filter and print lines based on a specific pattern or condition.
+32)	Calculate and print the average, sum, or other statistics of a column.
+33)	Perform string manipulation, such as extracting substrings or changing case.
+34)	Count the occurrences of a specific pattern in a file.
+35)	Sort lines based on a specific field or column.
+36)	Merge multiple files based on a common field or column.
+37)	Substitute text in a file using search and replace.
+38)	Delete specific lines based on a pattern or line number.
+39)	Append or insert text before or after a specific pattern or line.
+40)	Print only specific lines from a file.
+41) Copy file from linux to windows machine
+42) 5 use cases for AWK and 5 use cases for sed >> my task 
+
+
+
+1) Install nginx and run nginx on port number 81. done
+2) Deploy a sample index.html file on nginx. done 
+3) Install Apache and run Apache on port number 82
+4) Deploy a sample index.html file on Apache.   
+5) Install Apache tomcat on port number 8082    
+6) Deploy a sample app on webapps              
+7) Create a tomcat.service file for tomcat.    
+8) Configure HA Proxy server
+
+                  
+
+1) Create on Bash script to check if a directory is available or not.    14/02/2025
+
+2) Create a bash script which will create multiple files.
+
+3) Create a bash script to take backup of a directory.
+
+4) Create a bash script to install nginx in ec2 server.
+
+5) Create a bash script to install ApacheTomcat in ec2 server.
+
+6) Create a bash script to check list if nginx service is running or not,if not running
+   then script should start the service.
+   
+7) Create a bash script for calculator.
+
+8) Create a bash script to check if directory is avaialble or not,if not then create a directory.
+
+9) Create bash script to delete last 3 lines for a file.
+
+
+1)Install git.
+
+2)Create a repo in github with README.md and .ignore file.
+
+3)Clone the created repo to local.
+
+4)Create two files in local repo.
+
+5)Commit two files and push to central Repository.
+6)Create a branch in local and create a sample file and push to central.
+7)Create a branch in github and clone that to local.
+8)Merge the created branch with master in git local.
+9)Merge the created branch with master in github by sending a pull request.
+10)create a file in local and send that to branch in github.
+11)clone only a branch from github to local.
+12)create a file with all passwords and make that untrackable with git.
+13)make a commit and make that commit reset without savings changes.
+14)Revert a commited commit to the older version.
+15)push a file to stash without savings the changes and work on another file.
+16)undo the stash file and start working on that again.
+17)generate a ssh-keygen and configure into github.
+18)configure webhooks to github.
+19)basic understanding of .git file.
+20)Check all the logs of git.
+21)Rename the commit message.
+22)Merge multiple commits into single commit.
+
+ Task on Ec2:
+===========
+1) Launch one ec2 using Amazon Linux 2 image and add script in user data to install Apache.
+2) Launch one ec2 using Ubuntu image and add script in user data to install Nginx.
+3) Launch one windows server and install tomcat in windows.
+4) Take snapshot of the instane created in Task 1.
+5) Assign password less authentication for ec2 created on Task 2.
+6) Launch any ec2 using spot purchasing option.
+7) Enable Termination policy on ec2 created in Task 2.
+8) Launch one ec2 using Aws CLI.
+
+1) Create VPC with 2 private and 2 public subnets.
+2) Enable DNS Hostname in VPC
+3) Enable Auto Assign Public ip in 2 public subnets
+4) Add 2 private subnets in private route table
+5) Add 2 public subnets in public route table
+6) Public route table will have the routes to internet and local
+7) Create Ec2 in public subnet with t2micro and install php
+8) COnfigure Nat gateway in public subnet and connect to private Instance
+9) Install Apache Tomcat in private ec2 and deploy a sample app.
+10) Configure VPC flow logs and store the logs in s3 and CloudWatch.
+
+1) Create one VPC,with 1 one public subnet and 1 private subnet.
+2) Enable VPC peering for cross region.
+3) Enable VPC peering for cross account. (You can collaborate with your friend and do this task).
+4) Setup VPC Transist gateway.
+5) Setup VPC End Point.
+1) Create one IAM user and assign ec2,s3 full access role.
+2) Create one Group in IAM and Assign Read access for ec2.
+3) Create a new user with name Devops and add to the group created in task2.
+4) Write a bash script to create a IAM user with VPC full access.
+5) Create a IAM policy to access ec2 for a specific user in specific regions only.
+6) We have two accounts Account A and Account B, Account A user should access s3 bucket in Account B. 
+(Collaborate with team member and execute this.Mostly asked in every interview)
+
+1) Create s3 bucket and upload some objects to s3.
+2) Deploy static website in s3 bucket.
+3) Enable cross region replication on s3 buckets.
+4) Configure bucket policy,only Admin user can see the objects of s3 bucket.
+5) Setup lifecycle policies to automatically transition or delete objects based on specific criteria.
+6) Push some objects in s3 using AWS CLI.
+7) Write a bash script to create s3 bucket.
+8) Upload one 1 gb of file to s3 using cli.
+
